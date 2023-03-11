@@ -77,7 +77,7 @@
             Thread.Sleep(1000);
             Console.WriteLine("Díky za využívání našich služeb.");
             Thread.Sleep(500);
-            Console.WriteLine("Hezký den.");
+            Console.WriteLine("Hezký zbytek dne.");
 
 
             Console.ReadKey();
