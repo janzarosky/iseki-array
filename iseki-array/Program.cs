@@ -3,7 +3,7 @@
 
     class program
     {
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
 
             Console.WriteLine(@"
@@ -35,13 +35,13 @@
 
             int[] pole = new int[10];
             Random rnd = new Random();
-            
+
             for (int i = 0; i < pole.Length; i++)
             {
-              pole[i] = rnd.Next(0, 19);
+                pole[i] = rnd.Next(0, 21);
             }
             foreach (int i in pole)
-            Console.WriteLine(i);
+                Console.WriteLine(i);
 
             Thread.Sleep(1000);
             Console.WriteLine("-------------");
@@ -52,15 +52,15 @@
             Array.Sort(pole);
             for (int i = 0; i < pole.Length; i++)
             {
-              Console.WriteLine(pole[i] + " ");
+                Console.WriteLine(pole[i] + " ");
             }
 
 
             Thread.Sleep(1000);
             Console.WriteLine("-------------");
             Thread.Sleep(2000);
-            
-            
+
+
             int max = pole[0];
             for (int i = 1; i < pole.Length; i++)
             {
@@ -81,6 +81,8 @@
 
 
             Console.ReadKey();
+
+
 
         }
     }
